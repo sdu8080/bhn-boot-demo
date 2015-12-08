@@ -6,3 +6,6 @@ ssh -p 2000 user@localhost
 	java -cp ~/.m2/repository/org/jasypt/jasypt/1.9.2/jasypt-1.9.2.jar 
 	org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI input="password" 
 	password=supersecretz algorithm=PBEWithMD5AndDES
+ 
+ add this during the start up of jvm
+ -Djasypt.encryptor.password=supersecretz
