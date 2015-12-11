@@ -18,3 +18,4 @@
  	add following line during the start up of jvm, to allow Jasypt to know which master password to use.
  	-Djasypt.encryptor.password=supersecretz
  	
+6. test
