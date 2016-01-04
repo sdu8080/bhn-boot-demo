@@ -9,7 +9,7 @@ public class TopController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Level up lunch!";
+        return "Greetings from top level!";
     }
     
 }
