@@ -23,5 +23,5 @@
 	sa/password to login
 	
 8. use external Tomcat for deployment
-
+6. test
 9. test
