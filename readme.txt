@@ -18,3 +18,8 @@
  	add following line during the start up of jvm, to allow Jasypt to know which master password to use.
  	-Djasypt.encryptor.password=supersecretz
  	
+6. http://localhost:8080/bhn-boot-demo/health
+7. http://localhost:8080/console to open h2 DB, url= jdbc:h2:mem:AZ;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+	sa/password to login
+	
+8. use external Tomcat for deployment
